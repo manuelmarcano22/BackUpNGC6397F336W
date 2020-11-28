@@ -1,0 +1,2275 @@
+[INFO:] ***** drizzlepac.photeq started on 2019-05-24 15:58:55.848777
+[INFO:]       Version 0.2 (06-Nov-2015)
+[INFO:] 
+[INFO:] PRIMARY PHOTOMETRIC KEYWORD: PHOTFLAM
+[INFO:] SECONDARY PHOTOMETRIC KEYWORD(S): PHOTFNU
+[INFO:] REFERENCE VALUE FROM FILE: 'u9710103m_c0m.fits[3]'
+[INFO:] REFERENCE 'PHOTFLAM' VALUE IS: 5.451384e-17
+[INFO:] 
+[INFO:] Processing file 'u9710103m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3) - This is the "reference" extension.
+[INFO:]           Nothing to do. Skipping this extension...
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710106m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710109m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710203m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710206m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710209m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710303m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710306m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710403m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710406m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710503m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710506m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710603m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710606m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710703m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710706m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710803m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710806m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710903m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9710906m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711003m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711006m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711103m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711106m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711203m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711206m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711209m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971120cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971120fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711303m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711306m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711309m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971130cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971130fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711403m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711406m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711409m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971140cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971140fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711503m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711506m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711509m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971150cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971150fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711603m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711606m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711609m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971160cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971160fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711703m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711706m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711709m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971170cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971170fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711803m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711806m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711809m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971180cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971180fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711903m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711906m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9711909m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971190cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971190fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712003m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712006m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712009m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971200cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971200fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712103m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712106m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712109m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971210cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971210fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712203m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712206m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712209m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971220cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971220fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712303m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712306m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712309m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971230cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971230fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712403m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712406m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712409m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971240cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971240fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712503m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712506m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712509m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971250cm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u971250fm_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712603m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712606m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712609m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712703m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712706m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712803m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712806m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712809m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712903m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712906m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9712909m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713003m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713006m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713009m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713103m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713106m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713109m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713203m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713206m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713209m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713303m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713306m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713309m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713403m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713406m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713409m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713503m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713506m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713509m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713603m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713606m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Processing file 'u9713609m_c0m.fits'
+[INFO:]    * EXT: ('SCI', 1)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.613531e-17)
+[INFO:]      - Computed conversion factor for data: 1.02974418973
+[INFO:]      - Data have been multiplied by 1.02974418973
+[INFO:]    * EXT: ('SCI', 2)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.44483e-17)
+[INFO:]      - Computed conversion factor for data: 0.998797736501
+[INFO:]      - Data have been multiplied by 0.998797736501
+[INFO:]    * EXT: ('SCI', 3)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.451384e-17)
+[INFO:]      - Computed conversion factor for data: 1.0
+[INFO:]      - Data have been multiplied by 1.0
+[INFO:]    * EXT: ('SCI', 4)
+[INFO:]      - Setting PHOTFLAM to 5.451384e-17 (old value was 5.590183e-17)
+[INFO:]      - Computed conversion factor for data: 1.02546124067
+[INFO:]      - Data have been multiplied by 1.02546124067
+[INFO:] 
+[INFO:] Done.

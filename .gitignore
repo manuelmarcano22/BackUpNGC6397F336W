@@ -1,0 +1,31 @@
+# Ignore folder pyraf/
+pyraf/
+
+
+#Too large
+TooLargeforGithub*
+
+# Ignore the tar file with the data
+*.tar
+
+# Ignore fits files and compressed fits file
+*.fits
+*.fits.bz2
+!raw/S*.fits
+
+#Offsetsa and catalogs
+*c0m.png
+*.coo
+*.match
+*.list
+
+#Hubble references
+**/reference_files
+
+#Python and notebook related
+*.py[co]
+__pycache__
+.ipynb_checkpoints
+
+#DOLPHOT
+*.photo

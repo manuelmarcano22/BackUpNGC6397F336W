@@ -1,0 +1,783 @@
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 1.4.7(18-April-2018) started at: 16:21:42.182 (24/05/2019) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.3.0]
+[INFO    ] 2.7.16 |Anaconda, Inc.| (default, Mar 14 2019, 21:00:58) 
+[INFO    ] numpy Version -> 1.16.3 
+[INFO    ] astropy Version -> 2.0.9 
+[INFO    ] stwcs Version -> 1.3.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	ua*c0m.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     ua060502m_c0m.fits
+[INFO    ]     ua060504m_c0m.fits
+[INFO    ]     ua060506m_c0m.fits
+[INFO    ]     ua060508m_c0m.fits
+[INFO    ]     ua06050am_c0m.fits
+[INFO    ]     ua06050cm_c0m.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.0
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	ua*c0m.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	10000
+[INFO    ] 	peakmin :	100
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	300.0
+[INFO    ] 	updatehdr :	True
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua060502m_c0m.fits':
+[INFO    ]   #  Source finding for 'ua060502m_c0m.fits', EXT=('SCI', 1) started at: 16:21:42.418 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.917162
+[INFO    ] ###Source finding finished at: 16:21:42.526 (24/05/2019)
+[INFO    ]      Found 14 objects.
+[INFO    ]   #  Source finding for 'ua060502m_c0m.fits', EXT=('SCI', 2) started at: 16:21:42.641 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.968338
+[INFO    ] ###Source finding finished at: 16:21:42.730 (24/05/2019)
+[INFO    ]      Found 83 objects.
+[INFO    ]   #  Source finding for 'ua060502m_c0m.fits', EXT=('SCI', 3) started at: 16:21:42.840 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.503474
+[INFO    ] ###Source finding finished at: 16:21:42.987 (24/05/2019)
+[INFO    ]      Found 304 objects.
+[INFO    ]   #  Source finding for 'ua060502m_c0m.fits', EXT=('SCI', 4) started at: 16:21:43.097 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.911875
+[INFO    ] ###Source finding finished at: 16:21:43.188 (24/05/2019)
+[INFO    ]      Found 116 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua060502m_c0m.fits': 517
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua060504m_c0m.fits':
+[INFO    ]   #  Source finding for 'ua060504m_c0m.fits', EXT=('SCI', 1) started at: 16:21:43.710 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.964098
+[INFO    ] ###Source finding finished at: 16:21:43.777 (24/05/2019)
+[INFO    ]      Found 13 objects.
+[INFO    ]   #  Source finding for 'ua060504m_c0m.fits', EXT=('SCI', 2) started at: 16:21:43.846 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.979813
+[INFO    ] ###Source finding finished at: 16:21:43.911 (24/05/2019)
+[INFO    ]      Found 75 objects.
+[INFO    ]   #  Source finding for 'ua060504m_c0m.fits', EXT=('SCI', 3) started at: 16:21:43.989 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.374615
+[INFO    ] ###Source finding finished at: 16:21:44.224 (24/05/2019)
+[INFO    ]      Found 407 objects.
+[INFO    ]   #  Source finding for 'ua060504m_c0m.fits', EXT=('SCI', 4) started at: 16:21:44.306 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.142093
+[INFO    ] ###Source finding finished at: 16:21:44.468 (24/05/2019)
+[INFO    ]      Found 237 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua060504m_c0m.fits': 732
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua060506m_c0m.fits':
+[INFO    ]   #  Source finding for 'ua060506m_c0m.fits', EXT=('SCI', 1) started at: 16:21:44.965 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.908174
+[INFO    ] ###Source finding finished at: 16:21:45.021 (24/05/2019)
+[INFO    ]      Found 19 objects.
+[INFO    ]   #  Source finding for 'ua060506m_c0m.fits', EXT=('SCI', 2) started at: 16:21:45.085 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 1.004059
+[INFO    ] ###Source finding finished at: 16:21:45.148 (24/05/2019)
+[INFO    ]      Found 76 objects.
+[INFO    ]   #  Source finding for 'ua060506m_c0m.fits', EXT=('SCI', 3) started at: 16:21:45.221 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.126594
+[INFO    ] ###Source finding finished at: 16:21:45.370 (24/05/2019)
+[INFO    ]      Found 241 objects.
+[INFO    ]   #  Source finding for 'ua060506m_c0m.fits', EXT=('SCI', 4) started at: 16:21:45.451 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.836600
+[INFO    ] ###Source finding finished at: 16:21:45.517 (24/05/2019)
+[INFO    ]      Found 105 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua060506m_c0m.fits': 441
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua060508m_c0m.fits':
+[INFO    ]   #  Source finding for 'ua060508m_c0m.fits', EXT=('SCI', 1) started at: 16:21:45.972 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.980203
+[INFO    ] ###Source finding finished at: 16:21:46.029 (24/05/2019)
+[INFO    ]      Found 15 objects.
+[INFO    ]   #  Source finding for 'ua060508m_c0m.fits', EXT=('SCI', 2) started at: 16:21:46.092 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.884413
+[INFO    ] ###Source finding finished at: 16:21:46.156 (24/05/2019)
+[INFO    ]      Found 130 objects.
+[INFO    ]   #  Source finding for 'ua060508m_c0m.fits', EXT=('SCI', 3) started at: 16:21:46.22 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.131099
+[INFO    ] ###Source finding finished at: 16:21:46.378 (24/05/2019)
+[INFO    ]      Found 280 objects.
+[INFO    ]   #  Source finding for 'ua060508m_c0m.fits', EXT=('SCI', 4) started at: 16:21:46.461 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.639821
+[INFO    ] ###Source finding finished at: 16:21:46.560 (24/05/2019)
+[INFO    ]      Found 411 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua060508m_c0m.fits': 836
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua06050am_c0m.fits':
+[INFO    ]   #  Source finding for 'ua06050am_c0m.fits', EXT=('SCI', 1) started at: 16:21:47.018 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.949769
+[INFO    ] ###Source finding finished at: 16:21:47.073 (24/05/2019)
+[INFO    ]      Found 26 objects.
+[INFO    ]   #  Source finding for 'ua06050am_c0m.fits', EXT=('SCI', 2) started at: 16:21:47.135 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.785438
+[INFO    ] ###Source finding finished at: 16:21:47.212 (24/05/2019)
+[INFO    ]      Found 187 objects.
+[INFO    ]   #  Source finding for 'ua06050am_c0m.fits', EXT=('SCI', 3) started at: 16:21:47.288 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.559723
+[INFO    ] ###Source finding finished at: 16:21:47.376 (24/05/2019)
+[INFO    ]      Found 301 objects.
+[INFO    ]   #  Source finding for 'ua06050am_c0m.fits', EXT=('SCI', 4) started at: 16:21:47.460 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.849469
+[INFO    ] ###Source finding finished at: 16:21:47.526 (24/05/2019)
+[INFO    ]      Found 130 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua06050am_c0m.fits': 644
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'ua06050cm_c0m.fits':
+[INFO    ]   #  Source finding for 'ua06050cm_c0m.fits', EXT=('SCI', 1) started at: 16:21:47.962 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.702527
+[INFO    ] ###Source finding finished at: 16:21:48.016 (24/05/2019)
+[INFO    ]      Found 30 objects.
+[INFO    ]   #  Source finding for 'ua06050cm_c0m.fits', EXT=('SCI', 2) started at: 16:21:48.07 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.994307
+[INFO    ] ###Source finding finished at: 16:21:48.682 (24/05/2019)
+[INFO    ]      Found 67 objects.
+[INFO    ]   #  Source finding for 'ua06050cm_c0m.fits', EXT=('SCI', 3) started at: 16:21:48.751 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.276030
+[INFO    ] ###Source finding finished at: 16:21:48.921 (24/05/2019)
+[INFO    ]      Found 512 objects.
+[INFO    ]   #  Source finding for 'ua06050cm_c0m.fits', EXT=('SCI', 4) started at: 16:21:49.003 (24/05/2019)
+[INFO    ]    Finding sources using sky sigma = 0.682087
+[INFO    ] ###Source finding finished at: 16:21:49.087 (24/05/2019)
+[INFO    ]      Found 282 objects.
+[INFO    ] ===  FINAL number of objects in image 'ua06050cm_c0m.fits': 891
+[INFO    ] 
+[INFO    ] Converting RA/Dec positions of reference sources from "ua060502m_c0m.fits" to X,Y positions in reference WCS...
+[INFO    ] 
+[INFO    ] ===============================================================
+[INFO    ] Performing alignment in the projection plane defined by the WCS
+[INFO    ] derived from 'ua060502m_c0m.fits'
+[INFO    ] ===============================================================
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for matching sources:
+[INFO    ] 	minobj :	15
+[INFO    ] 	residplot :	both
+[INFO    ] 	searchrad :	1.0
+[INFO    ] 	searchunits :	arcseconds
+[INFO    ] 	see2dplot :	True
+[INFO    ] 	separation :	0.5
+[INFO    ] 	tolerance :	1.0
+[INFO    ] 	use2dhist :	True
+[INFO    ] 	xoffset :	0.0
+[INFO    ] 	yoffset :	0.0
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for fitting source lists:
+[INFO    ] 	fitgeometry :	rscale
+[INFO    ] 	labelsize :	8
+[INFO    ] 	minobj :	15
+[INFO    ] 	nclip :	3
+[INFO    ] 	residplot :	both
+[INFO    ] 	sigma :	3.0
+[INFO    ] 	ylimit :	None
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: ua060504m_c0m.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'ua060504m_c0m.fits' with sources from reference image 'ua060502m_c0m.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of  -0.6210454675184991 -0.5585454675184991
+[INFO    ]     with significance of  309.3184263649498 and  10.0  matches
+[INFO    ] Found 37 matches for ua060504m_c0m.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  ua060504m_c0m.fits : 
+[INFO    ] XSH: 0.1209  YSH: 0.0494    ROT: 0.001963091054    SCALE: 1.000024
+[INFO    ] XRMS: 0.1    YRMS: 0.15
+[INFO    ] 
+[INFO    ] RMS_RA: 1.6e-06 (deg)   RMS_DEC: 1.7e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  35  objects.
+[INFO    ] Creating catalog for the fit: ua060504m_c0m_catalog_fit.match
+[INFO    ] wrote XY data to:  ua060504m_c0m_catalog_fit.match
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Initializing new WCSCORR table for  ua060504m_c0m.fits
+[INFO    ] 
+[INFO    ] ....Updating header for ua060504m_c0m.fits...
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Processing ua060504m_c0m.fits['SCI',1]
+[INFO    ] 
+[INFO    ] Updating header for ua060504m_c0m.fits[1]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.4613419581130658e-06 -1.240939725052163e-05
+[INFO    ] CD_21  CD_22: -1.2410992680753348e-05 -2.4758071749806584e-06
+[INFO    ] CRVAL    : 323.31494294823125 -0.8704548030154265
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.045550835070313926
+[INFO    ] ORIENTAT : -101.28297179140962
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060504m_c0m.fits['SCI',2]
+[INFO    ] 
+[INFO    ] Updating header for ua060504m_c0m.fits[2]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -2.7092340020785346e-05 -5.647944435364876e-06
+[INFO    ] CD_21  CD_22: -5.645620812587885e-06 2.7089029920449305e-05
+[INFO    ] CRVAL    : 323.30621040230477 -0.8561631001924064
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09962994739054784
+[INFO    ] ORIENTAT : -11.77720090119434
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060504m_c0m.fits['SCI',3]
+[INFO    ] 
+[INFO    ] Updating header for ua060504m_c0m.fits[3]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -5.500422429230911e-06 2.711722805340465e-05
+[INFO    ] CD_21  CD_22: 2.7116526446199696e-05 5.4969614759969605e-06
+[INFO    ] CRVAL    : 323.3266480087875 -0.8521698769427418
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09960995944942308
+[INFO    ] ORIENTAT : 78.54078886585164
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060504m_c0m.fits['SCI',4]
+[INFO    ] 
+[INFO    ] Updating header for ua060504m_c0m.fits[4]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.7182690632027067e-05 5.239588637124882e-06
+[INFO    ] CD_21  CD_22: 5.234492895894942e-06 -2.7187345699887444e-05
+[INFO    ] CRVAL    : 323.3308662366234 -0.8730797567858888
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09965795546861014
+[INFO    ] ORIENTAT : 169.09160555572794
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ]     Writing out new WCS to alternate WCS: "B"
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: ua060506m_c0m.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'ua060506m_c0m.fits' with sources from reference image 'ua060502m_c0m.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of  -0.20437880085183124 -0.20437880085183124
+[INFO    ]     with significance of  349.6821413798537 and  16.0  matches
+[INFO    ] Found 35 matches for ua060506m_c0m.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  ua060506m_c0m.fits : 
+[INFO    ] XSH: 0.0966  YSH: 0.1779    ROT: 359.9975266    SCALE: 0.999977
+[INFO    ] XRMS: 0.16    YRMS: 0.15
+[INFO    ] 
+[INFO    ] RMS_RA: 1.4e-06 (deg)   RMS_DEC: 2.3e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  35  objects.
+[INFO    ] Creating catalog for the fit: ua060506m_c0m_catalog_fit.match
+[INFO    ] wrote XY data to:  ua060506m_c0m_catalog_fit.match
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Initializing new WCSCORR table for  ua060506m_c0m.fits
+[INFO    ] 
+[INFO    ] ....Updating header for ua060506m_c0m.fits...
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Processing ua060506m_c0m.fits['SCI',1]
+[INFO    ] 
+[INFO    ] Updating header for ua060506m_c0m.fits[1]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.4623943586244505e-06 -1.240965705115883e-05
+[INFO    ] CD_21  CD_22: -1.2411253712162248e-05 -2.476859983387926e-06
+[INFO    ] CRVAL    : 323.3154188672505 -0.8700065073969375
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.04555034057098677
+[INFO    ] ORIENTAT : -101.28741634188086
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060506m_c0m.fits['SCI',2]
+[INFO    ] 
+[INFO    ] Updating header for ua060506m_c0m.fits[2]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -2.709288871786754e-05 -5.6502515193671565e-06
+[INFO    ] CD_21  CD_22: -5.6479280955500705e-06 2.708957825773589e-05
+[INFO    ] CRVAL    : 323.30668489553517 -0.8557149614695071
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.0996288660088015
+[INFO    ] ORIENTAT : -11.781645411691262
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060506m_c0m.fits['SCI',3]
+[INFO    ] 
+[INFO    ] Updating header for ua060506m_c0m.fits[3]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -5.502726282669876e-06 2.7117789146141982e-05
+[INFO    ] CD_21  CD_22: 2.7117087235279586e-05 5.499265201865178e-06
+[INFO    ] CRVAL    : 323.32712293409475 -0.8517200075434076
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09960887806295195
+[INFO    ] ORIENTAT : 78.53634445821555
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060506m_c0m.fits['SCI',4]
+[INFO    ] 
+[INFO    ] Updating header for ua060506m_c0m.fits[4]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.7183274454094194e-05 5.241888501507096e-06
+[INFO    ] CD_21  CD_22: 5.236792160048516e-06 -2.7187929350060537e-05
+[INFO    ] CRVAL    : 323.33134293727045 -0.8726303216717434
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09965687357407399
+[INFO    ] ORIENTAT : 169.08716101737997
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ]     Writing out new WCS to alternate WCS: "B"
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: ua060508m_c0m.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'ua060508m_c0m.fits' with sources from reference image 'ua060502m_c0m.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of  -0.18967291849888923 -0.33673174202830225
+[INFO    ]     with significance of  330.2553557476396 and  14.0  matches
+[INFO    ] Found 32 matches for ua060508m_c0m.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  ua060508m_c0m.fits : 
+[INFO    ] XSH: 0.1437  YSH: 0.0013    ROT: 0.0003824037264    SCALE: 0.999924
+[INFO    ] XRMS: 0.18    YRMS: 0.097
+[INFO    ] 
+[INFO    ] RMS_RA: 7.8e-07 (deg)   RMS_DEC: 2.4e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  31  objects.
+[INFO    ] Creating catalog for the fit: ua060508m_c0m_catalog_fit.match
+[INFO    ] wrote XY data to:  ua060508m_c0m_catalog_fit.match
+[INFO    ] Total # points:  31
+[INFO    ] # of points after clipping:  31
+[INFO    ] Total # points:  31
+[INFO    ] # of points after clipping:  31
+[INFO    ] Initializing new WCSCORR table for  ua060508m_c0m.fits
+[INFO    ] 
+[INFO    ] ....Updating header for ua060508m_c0m.fits...
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Processing ua060508m_c0m.fits['SCI',1]
+[INFO    ] 
+[INFO    ] Updating header for ua060508m_c0m.fits[1]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.4618753954281945e-06 -1.2410292038438001e-05
+[INFO    ] CD_21  CD_22: -1.241188799414335e-05 -2.4763416963474054e-06
+[INFO    ] CRVAL    : 323.31518689506004 -0.8706171908719103
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.04554981613462175
+[INFO    ] ORIENTAT : -101.28455245165169
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060508m_c0m.fits['SCI',2]
+[INFO    ] 
+[INFO    ] Updating header for ua060508m_c0m.fits[2]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -2.7094286936833277e-05 -5.649130130434885e-06
+[INFO    ] CD_21  CD_22: -5.6468064259594365e-06 2.7090976525509818e-05
+[INFO    ] CRVAL    : 323.30645327666537 -0.8563246197419275
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09962771877179627
+[INFO    ] ORIENTAT : -11.77878148977521
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060508m_c0m.fits['SCI',3]
+[INFO    ] 
+[INFO    ] Updating header for ua060508m_c0m.fits[3]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -5.501597471949533e-06 2.7119181007216383e-05
+[INFO    ] CD_21  CD_22: 2.711847922111012e-05 5.498136274672354e-06
+[INFO    ] CRVAL    : 323.3268923600219 -0.8523305227614388
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09960773124815211
+[INFO    ] ORIENTAT : 78.53920818647923
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua060508m_c0m.fits['SCI',4]
+[INFO    ] 
+[INFO    ] Updating header for ua060508m_c0m.fits[4]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.7184655891370583e-05 5.240745461740869e-06
+[INFO    ] CD_21  CD_22: 5.235649148005732e-06 -2.7189311224838202e-05
+[INFO    ] CRVAL    : 323.33111149240955 -0.8732419090889662
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09965572615263756
+[INFO    ] ORIENTAT : 169.09002475220476
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ]     Writing out new WCS to alternate WCS: "B"
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: ua06050am_c0m.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'ua06050am_c0m.fits' with sources from reference image 'ua060502m_c0m.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of  -0.1705950170680488 -0.6976220440950733
+[INFO    ]     with significance of  337.88089617496877 and  12.0  matches
+[INFO    ] Found 38 matches for ua06050am_c0m.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  ua06050am_c0m.fits : 
+[INFO    ] XSH: 0.0784  YSH: 0.0282    ROT: 359.9969155    SCALE: 0.999930
+[INFO    ] XRMS: 0.22    YRMS: 0.18
+[INFO    ] 
+[INFO    ] RMS_RA: 1.7e-06 (deg)   RMS_DEC: 3.2e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  34  objects.
+[INFO    ] Creating catalog for the fit: ua06050am_c0m_catalog_fit.match
+[INFO    ] wrote XY data to:  ua06050am_c0m_catalog_fit.match
+[INFO    ] Total # points:  34
+[INFO    ] # of points after clipping:  34
+[INFO    ] Total # points:  34
+[INFO    ] # of points after clipping:  34
+[INFO    ] Initializing new WCSCORR table for  ua06050am_c0m.fits
+[INFO    ] 
+[INFO    ] ....Updating header for ua06050am_c0m.fits...
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Processing ua06050am_c0m.fits['SCI',1]
+[INFO    ] 
+[INFO    ] Updating header for ua06050am_c0m.fits[1]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.4625884498358443e-06 -1.2409951028400445e-05
+[INFO    ] CD_21  CD_22: -1.2411547811328455e-05 -2.4770544675422714e-06
+[INFO    ] CRVAL    : 323.31476267519105 -0.870993246202468
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.04554940255534863
+[INFO    ] ORIENTAT : -101.28801933806933
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050am_c0m.fits['SCI',2]
+[INFO    ] 
+[INFO    ] Updating header for ua06050am_c0m.fits[2]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -2.7093527847515327e-05 -5.650682209283556e-06
+[INFO    ] CD_21  CD_22: -5.648358778554761e-06 2.7090217337485692e-05
+[INFO    ] CRVAL    : 323.3060283255985 -0.8567014236595218
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09962681423397333
+[INFO    ] ORIENTAT : -11.782248173205902
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050am_c0m.fits['SCI',3]
+[INFO    ] 
+[INFO    ] Updating header for ua06050am_c0m.fits[3]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -5.503153618883656e-06 2.7118430528467223e-05
+[INFO    ] CD_21  CD_22: 2.7117728562805004e-05 5.499692528885041e-06
+[INFO    ] CRVAL    : 323.3264668543532 -0.8527061516457907
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09960682693952305
+[INFO    ] ORIENTAT : 78.53574121718185
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050am_c0m.fits['SCI',4]
+[INFO    ] 
+[INFO    ] Updating header for ua06050am_c0m.fits[4]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.7183920197600163e-05 5.242309870901237e-06
+[INFO    ] CD_21  CD_22: 5.2372133872991974e-06 -2.7188575202776415e-05
+[INFO    ] CRVAL    : 323.3306871876141 -0.8736169605259041
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09965482119808125
+[INFO    ] ORIENTAT : 169.08655787771048
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ]     Writing out new WCS to alternate WCS: "B"
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: ua06050cm_c0m.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'ua06050cm_c0m.fits' with sources from reference image 'ua060502m_c0m.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of  -0.17937880085183266 -0.7043788008518312
+[INFO    ]     with significance of  315.210735369701 and  11.0  matches
+[INFO    ] Found 36 matches for ua06050cm_c0m.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  ua06050cm_c0m.fits : 
+[INFO    ] XSH: 0.0674  YSH: -0.0543    ROT: 359.9998063    SCALE: 0.999891
+[INFO    ] XRMS: 0.2    YRMS: 0.17
+[INFO    ] 
+[INFO    ] RMS_RA: 1.6e-06 (deg)   RMS_DEC: 2.9e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  35  objects.
+[INFO    ] Creating catalog for the fit: ua06050cm_c0m_catalog_fit.match
+[INFO    ] wrote XY data to:  ua06050cm_c0m_catalog_fit.match
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Total # points:  35
+[INFO    ] # of points after clipping:  35
+[INFO    ] Initializing new WCSCORR table for  ua06050cm_c0m.fits
+[INFO    ] 
+[INFO    ] ....Updating header for ua06050cm_c0m.fits...
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Processing ua06050cm_c0m.fits['SCI',1]
+[INFO    ] 
+[INFO    ] Updating header for ua06050cm_c0m.fits[1]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.462049822705987e-06 -1.2410517257259377e-05
+[INFO    ] CD_21  CD_22: -1.24121134269051e-05 -2.4765164111684213e-06
+[INFO    ] CRVAL    : 323.3149906160411 -0.8703826189611721
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.045549210974567884
+[INFO    ] ORIENTAT : -101.28512864173118
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050cm_c0m.fits['SCI',2]
+[INFO    ] 
+[INFO    ] Updating header for ua06050cm_c0m.fits[2]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -2.7094776232705217e-05 -5.649516388559469e-06
+[INFO    ] CD_21  CD_22: -5.647192686785272e-06 2.7091465753519362e-05
+[INFO    ] CRVAL    : 323.3062566784244 -0.856089847557542
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09962639517206921
+[INFO    ] ORIENTAT : -11.779357582696074
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050cm_c0m.fits['SCI',3]
+[INFO    ] 
+[INFO    ] Updating header for ua06050cm_c0m.fits[3]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: -5.501981024165316e-06 2.7119672327234703e-05
+[INFO    ] CD_21  CD_22: 2.711897050558546e-05 5.498519750627672e-06
+[INFO    ] CRVAL    : 323.32669613233634 -0.8520954645900591
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09960640789146283
+[INFO    ] ORIENTAT : 78.53863214123949
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ] 
+[INFO    ] Processing ua06050cm_c0m.fits['SCI',4]
+[INFO    ] 
+[INFO    ] Updating header for ua06050cm_c0m.fits[4]
+[INFO    ]     with WCS of
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 2.718515120665051e-05 5.24112445684935e-06
+[INFO    ] CD_21  CD_22: 5.236027995617501e-06 -2.7189806573704117e-05
+[INFO    ] CRVAL    : 323.3309155597662 -0.8730072299918258
+[INFO    ] CRPIX    : 425.0 425.0
+[INFO    ] NAXIS    : 800 800
+[INFO    ] Plate Scale : 0.09965440228325992
+[INFO    ] ORIENTAT : 169.08944871391975
+[INFO    ] WCSNAME  :  TWEAK
+[INFO    ]     Writing out new WCS to alternate WCS: "B"
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] Initializing new WCSCORR table for  ua060502m_c0m.fits
+[INFO    ]     Saving Primary WCS to alternate WCS: " "
+[INFO    ] Updating WCSCORR table with new WCS solution "TWEAK"
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] ***** drizzlepac.photeq started on 2019-05-24 16:22:01.908626
+[INFO    ]       Version 0.2 (06-Nov-2015)
+[INFO    ] 
+[INFO    ] PRIMARY PHOTOMETRIC KEYWORD: PHOTFLAM
+[INFO    ] SECONDARY PHOTOMETRIC KEYWORD(S): PHOTFNU
+[INFO    ] REFERENCE VALUE FROM FILE: 'ua060502m_c0m.fits[3]'
+[INFO    ] REFERENCE 'PHOTFLAM' VALUE IS: 2.449067e-18
+[INFO    ] 
+[INFO    ] Processing file 'ua060502m_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3) - This is the "reference" extension.
+[INFO    ]           Nothing to do. Skipping this extension...
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Processing file 'ua060508m_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.449067e-18)
+[INFO    ]      - Computed conversion factor for data: 1.0
+[INFO    ]      - Data have been multiplied by 1.0
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Processing file 'ua06050cm_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.449067e-18)
+[INFO    ]      - Computed conversion factor for data: 1.0
+[INFO    ]      - Data have been multiplied by 1.0
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Processing file 'ua060504m_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.449067e-18)
+[INFO    ]      - Computed conversion factor for data: 1.0
+[INFO    ]      - Data have been multiplied by 1.0
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Processing file 'ua060506m_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.449067e-18)
+[INFO    ]      - Computed conversion factor for data: 1.0
+[INFO    ]      - Data have been multiplied by 1.0
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Processing file 'ua06050am_c0m.fits'
+[INFO    ]    * EXT: ('SCI', 1)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.507987e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02405814132
+[INFO    ]      - Data have been multiplied by 1.02405814132
+[INFO    ]    * EXT: ('SCI', 2)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.458077e-18)
+[INFO    ]      - Computed conversion factor for data: 1.00367895203
+[INFO    ]      - Data have been multiplied by 1.00367895203
+[INFO    ]    * EXT: ('SCI', 3)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.449067e-18)
+[INFO    ]      - Computed conversion factor for data: 1.0
+[INFO    ]      - Data have been multiplied by 1.0
+[INFO    ]    * EXT: ('SCI', 4)
+[INFO    ]      - Setting PHOTFLAM to 2.449067e-18 (old value was 2.498411e-18)
+[INFO    ]      - Computed conversion factor for data: 1.02014808088
+[INFO    ]      - Data have been multiplied by 1.02014808088
+[INFO    ] 
+[INFO    ] Done.
