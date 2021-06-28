@@ -1,0 +1,10 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(17:40:42.5277,-53:40:26.793,0.200") # color=red width=3 font="times 36 bold roman"
+# text(17:40:42.4414,-53:40:26.806) textangle=0 color=red font="helvetica 30 normal roman" text={U18}
+point(17:40:42.5323,-53:40:26.379) # point=x 30 width=3
+# compass(17:40:42.1774,-53:40:29.757,8.404") compass=fk5 {N} {E} 1 1 width=3 font="helvetica 20 normal roman"
+line(17:40:42.6766,-53:40:29.782,17:40:42.6766,-53:40:28.782) # line=0 0 font="helvetica 30 normal roman" text={1"} dash=1
+box(17:40:42.4389,-53:40:27.469,5.000",5.000",0) # font="helvetica 24 normal roman"
+# segment(17:40:41.9762,-53:40:27.864,17:40:41.9762,-53:40:27.876)

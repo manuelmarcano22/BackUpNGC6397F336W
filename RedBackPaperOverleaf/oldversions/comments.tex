@@ -1,0 +1,286 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\newcommand{\ergs}{\,ergs\,s$^{-1}$} % kilometres per second
+
+\usepackage{natbib}
+\usepackage{csquotes}
+
+%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{multicol}        % Multi-column entries in tables
+\usepackage{bm}		% Bold maths symbols, including upright Greek
+\usepackage{pdflscape}	% Landscape pages
+\usepackage{comment}	%comments
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+\newcommand{\kms}{\,km\,s$^{-1}$} % kilometres per second
+
+\newcommand{\bibtex}{\textsc{Bib}\!\TeX} % bibtex. Not quite the correct typesetting, but close enough
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Use vector fonts, so it zooms properly in on-screen viewing software
+% Don't change these lines unless you know what you are doing
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+
+% MNRAS is set in Times font. If you don't have this installed (most LaTeX
+% installations will be fine) or prefer the old Computer Modern fonts, comment
+% out the following line
+\usepackage{newtxtext,newtxmath}
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+
+
+\title{Reply to Referee}
+%\author{Manuel Pichardo}
+%\date{January 2021}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{Reply to Referee}
+
+
+\textbf{1-What is the cadence of the HST data used in the analysis?} This
+ should be mentioned in Sections 2.1 or 2.2. I understand the light
+ curve is unevenly sampled, but the reader should have an idea of the
+ range of 'time steps' or cadence of the time series used for the
+ Lomb-Scargle and phase dispersion periodograms.
+ 
+ 
+\hrulefill. 
+
+
+ Added to section 2.1:
+ 
+\begin{displayquote}
+This results in 126 individual exposures (one exposure per orbit) in F336W with exposure times ranging from 500-700 seconds, taken between mid-March and early April 2005 (2005-13-03 to 2005-08-04). The minimum separation between data points being 74 minutes and the maximum of 3.2 days with a total baseline of 26 days.
+\end{displayquote}
+ 
+ 
+
+ \hrulefill. 
+
+\textbf{2-}Related to the previous point: \textbf{can the authors exclude an orbital period which is twice, or half, the photometric period they find?} 
+For
+ instance, the peak at ~1 day in Figure 3 is also above the 1% FAP
+ line. A period of 4 days would probably give two maxima per orbit in
+ the optical-UV light curve, in line with what's expected from
+ ellipsoidal modulation in a semi-detached binary and what is observed
+ in several confirmed redbacks. \textbf{Can we see the PDM inset in Figure 3
+ extended until ~4d?}
+
+ \hrulefill. 
+
+
+
+ The figure was extended until 4 days. We added to the discussion section:
+ 
+\begin{displayquote}
+Furthermore, the light curve is in $F336W$ or near UV where in other system it has been shown that there is variability due to intrabinary shocks \cite[e.g.][]{Liliana201847Tuc}. In other systems where no ellipsoidal variations is observed the magnitude of the modulations decrease toward longer wavelengths \cite[e.g.][]{Baglio2016}. U18 is near the core of the cluster and only $\sim 0.2"$ from a brighter star. Due extreme crowding at redder wavelengths and possibly lower amplitude of modulations, we limit the variability study to the F336W data. Future data with adaptive optics or speckle interferometry to study the variability of this source at redder bands would allow to a detailed modeling of the system. 
+ 
+Other evidence that points to intrabinary shocks as the source of the blue light is the observed colors for U18. The V-I colors of this object, $V-I = 0.93$ \citep{Pallanca2017Halpha}, are significantly bluer than expected for a $T_{eff}=4200$ K star \citep{Mamajek2013} (which is indicated from spectroscopy), indicating that there is an extra component providing blue continuum light. This means that the observed flux is a combination of emission from the companion star and from the intrabinary shock, making the companion to look brighter and ’bluer’ that in reality
+
+
+ 
+ We also compared the observed limits on the size of the donor star with predictions for nearly Roche lobe filling companions at different orbital periods in order to test whether the 1.96 day period is the actual orbital period or a harmonic of the orbital period (as might be expected if the modulations are ellipsoidal). In redder bands we expect light to dominates by the companion. For a star of $T_{eff} \approx 4200 \, K$, the theoretical radius is $R_\odot = 0.676$ and the absolute magnitude in the I band  $M_{I} = 6.2$ \citep{Mamajek2013}. Using the extinction from \cite{Richer2008}, this gives a theoretical magnitude in the I band of $M_I = 5.87$. We can compare this to the reported values in the I band for U18. From \cite{Pallanca2017Halpha} the absolute magnitude of U18 is  $M_{I_o} = 3.210$, comparing these two values, we can infer that the companion is 11.5 times brighter than a theoretical star at the same $T_{eff}$, and thus has a radius $R \approx 2.3 R_\odot$. Assuming typical values for the mass ration $q=0.16$ and the mass of the neutron star, $M_{NS}=1.76$ \citep{Strader2019Redbacks}. For the proposed orbital period of 1.96 days, assuming a Roche-lobe filling companion, as is the case in many redbacks, and using the \cite{Paczy1971} relations for the radius of a Roche-lobe star and Kepler's second law we get an estimated radius of the companion of $R_{companion} = 2 R_\odot$. This is close to the estimated value of the radius from the measured I band flux of U18. A longer orbital period of $P_{orb}=2\times 1.96$ gives a $R_{companion} = 3.2 R_{\odot}$. To get a $R_{companion} = 2 R_\odot$ with twice the proposed orbital period, the mass ratio would need to be low compare to other known Redbacks (\cite{Strader2019Redbacks} reports a minimum $q= 0.07$) and would make the companion a star with $M =0.07 M_\odot$ and $R= 2 R_\odot$, making it an unusual companion for a redback and a system with an unusually low mass ratio. All this argues for the period to be 1.96 and argues against a longer orbital period. 
+ 
+\end{displayquote}
+  \hrulefill. 
+
+
+
+
+
+\textbf{3-What is the case against a CV identification?} Is this strengthened or
+ weakened by this finding of a 1.96 d period? This should be discussed
+ in Section 3.\\
+ 
+ \hrulefill. 
+
+ 
+ We extended the discussion in section 3. 
+ 
+ 
+ \begin{displayquote}
+
+ The radio emission also makes the identification as a CV less likely. Furthermore, \cite{cohn_identification_2010} examined the ratio of X-ray to optical for many optical counterpart of Chandra X-ray sources. They conclude that U18 has a similar ratio to the confirmed MSP U12 and separated from other CV candidates.Also  \cite{Pallanca2017Halpha} looked at the equivalent width of the H$\alpha$ emission of U18 and measured an equivalent width similar to U12 and smaller than other confirmed CV and CV candidates in the cluster. All this argues against U18 being a CV candidate.
+ 
+\end{displayquote}
+ \hrulefill. 
+
+ 
+
+
+\textbf{4-Finally,} if we accept this as the orbital period of a redback MSP,
+ the discussion can be improved. \textbf{What are the implications of this
+ result for redbacks and their optical lightcurves?}  \textbf{What is the
+ irradiating flux or spin-down luminosity needed to get one maximum
+ per orbit in such wide 2-d binary with a Lopt=1.6e34 erg/s companion?}
+ \textbf{Any constraint on the inclination from the small amplitude of the
+ optical-UV lightcurve?}\\
+ 
+ 
+  \hrulefill. 
+
+ 
+ We added this to section 3 to estimate the spin-down limit and power received by the donor and argue for the 2 day period vs the 4 day period. 
+ 
+\begin{displayquote}
+We can use the proposed orbital period to find some constraints in the properties of U18. From the obtained orbital period and the X-ray luminosity, we can place a limit on the spin-down luminosity. We use the relation from \cite{Possenti2002}:
+
+ $$L_x = 10^{-15.3} \times L_{sd}^{1.34} $$
+ 
+ where $L_x$ is the X-ray luminosity from 2-10 KeV and $L_{sd}$ is the spin-down luminosity. A $L_X= 6.7 \times 10 ^{31}$\ergs \citep[0.3-8 keV;][]{bogdanov_chandra_2010} gives a $L_{sd} = 1.47\times 10 ^{35}$ \ergs. Assuming that the system is close to being Roche-lobe filling and using the relationship from \cite{EggletonRoche1983}, for a mass range of $q\sim0.1-1$, the companion would receive a total power output on the order of $\times 10^{33}$. This corresponds to $\sim 10 \%$ of the total bolometric luminosity of the star. Relating this power to the $\Delta mag$ observed for this system requires more data in other wavelengths to do an accurate modelling taking into account the albedo and the fraction of light from intrabinary shocks in the system.
+\end{displayquote}
+ 
+
+ \hrulefill. 
+
+
+
+\textbf{5-Note} there are  two systems sometimes classified as redbacks which have
+ orbital periods longer than 5 days: PSR J1417.5-4402 \textbf{(Camilo et al
+ 2016) and PSR J0846.0+2820 (Swihart et al. 2017). This should be
+ mentioned somewhere.} If the authors need space to fit into letter
+ limits they could get rid of the discussion about spectroscopy,
+ radial velocities and V*sin(i) towards the end of Section 3, which I
+ find a bit empty (no spectra presented/analysed here).\\
+ 
+ \hrulefill. 
+
+
+Both references added.
+\begin{displayquote}
+Two other redbacks in the field, 1FGL J1417.7-4407 \citep{Strader2015,Camilo2016,Swihart2018} and 2FGLJ0846.0+2820 \citep{Swihart2017} have larger periods at 5.3 and 8.3 day respectively.
+\end{displayquote}
+ \hrulefill. 
+
+
+
+
+\textbf{Other smaller stuff:}
+
+
+\textbf{-Title: 1.96 is actually rounded off to 2.0 or 2}
+
+\hrulefill
+
+changed
+\begin{displayquote}
+A 2 day orbital period for a redback millisecond pulsar candidate in the globular cluster NGC~6397
+\end{displayquote}
+
+ \hrulefill. 
+
+
+\textbf{If the answer to my second point above is not conclusive I
+would write "periodicity" instead of "orbital period".}
+
+
+ \hrulefill
+
+We argue for the two day orbital period as discussed above
+
+ \hrulefill
+
+
+
+\textbf{-Abstract: modulations to modulation}
+
+ \hrulefill
+
+done 
+
+
+ \hrulefill
+
+
+\textbf{-Abstract: say clearly that you find the period!}
+ 
+  \hrulefill
+  
+  In the abstract:
+  \begin{displayquote}
+  This object is a bright variable star with an anomalous red color and optical variability ($\sim0.2$ mag in amplitude) with a periodicity $\sim 1.96$ days that can be interpreted as the orbital period. 
+  \end{displayquote}
+
+
+ \hrulefill. 
+
+
+\textbf{-Sec. 2.1: can you analyse the F606W (or even F814W) light curves? if yes, they might give period confirmation and color/temperature information.}
+
+ \hrulefill
+ 
+
+ Added some discussion in section 3. 
+ 
+ \begin{displayquote}
+U18 is near the core of the cluster and only $\sim 0.2"$ from a brighter star. Due extreme crowing at redder wavelengths and possibly lower amplitude of modulations, we limit the variability study to the F336W data. Future data with adaptive optics or speckle interferometry to study the variability of this source at redder bands would allow to a detailed modeling of the system. 
+
+ \end{displayquote}
+ 
+
+
+ \hrulefill. 
+
+
+
+\textbf{-Figure 1:what's the scale? where is V31?} 
+
+ \hrulefill. 
+
+
+added in caption and a cross in the new image where V31 is. Also added scale \\
+
+
+ \hrulefill
+
+\textbf{-Figure 1: Explain how you estimate the error on the reported 1.96 +/- 0.06 d
+period.}
+
+ \hrulefill. 
+
+Added to section 2.3
+
+\begin{displayquote}
+ For the uncertainty in the period we take the $\sigma$ of the Gaussian fit of the peak $\sim 0.06$. 
+\end{displayquote}
+
+ \hrulefill. 
+
+\textbf{-If the authors need space to fit into letter
+ limits they could get rid of the discussion about spectroscopy,
+ radial velocities and V*sin(i) towards the end of Section 3, which I
+ find a bit empty (no spectra presented/analysed here).}
+ 
+ 
+ \hrulefill
+ 
+ We removed the discussion about spectroscopy as suggested to make space to address the points mentioned above.  
+
+\hrulefill
+
+\bibliographystyle{mnras}
+\bibliography{redback} % if your bibtex file is called example.bib
+
+
+
+\end{document}

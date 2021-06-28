@@ -1,0 +1,353 @@
+% mnras_guide.tex
+%
+% MNRAS LaTeX user guide
+%
+% v3.0 released 22 May 2015
+% (version numbers match those of mnras.cls)
+%
+% Copyright (C) Royal Astronomical Society 2015
+% Authors:
+% Keith T. Smith (Royal Astronomical Society)
+
+% Change log
+%
+% v3.0   September 2013 - May 2015
+%    First version: complete rewrite of the user guide
+%    Basic structure taken from mnras_template.tex by the same author
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Basic setup. Most papers should leave these options alone.
+\documentclass[fleqn,usenatbib,useAMS,letters]{mnras}
+
+%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{multicol}        % Multi-column entries in tables
+\usepackage{bm}		% Bold maths symbols, including upright Greek
+\usepackage{pdflscape}	% Landscape pages
+\usepackage{comment}	%comments
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+\newcommand{\kms}{\,km\,s$^{-1}$} % kilometres per second
+\newcommand{\ergs}{\,ergs\,s$^{-1}$} % kilometres per second
+
+\newcommand{\bibtex}{\textsc{Bib}\!\TeX} % bibtex. Not quite the correct typesetting, but close enough
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Use vector fonts, so it zooms properly in on-screen viewing software
+% Don't change these lines unless you know what you are doing
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+
+% MNRAS is set in Times font. If you don't have this installed (most LaTeX
+% installations will be fine) or prefer the old Computer Modern fonts, comment
+% out the following line
+\usepackage{newtxtext,newtxmath}
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+% Title of the paper, and the short title which is used in the headers.
+% Keep the title short and informative.
+\title[A 1.9 day orbital period for a redback MSP Candidate in the Globular Cluster NGC~6397]{A 1.9 day orbital period for a redback millisecond pulsar candidate in the globular cluster NGC~6397}
+
+% The list of authors, and the short list which is used in the headers.
+% If you need two or more lines of authors, add an extra line using \newauthor
+\author[Manuel Pichardo Marcano, other]{Manuel Pichardo Marcano$^{1}$, \thanks{Contact e-mail: \href{manuel.pichardo-marcano@ttu.edu}{manuel.pichardo-marcano@ttu.edu}}{L.E. Rivera Sandoval$^{1}$, Thomas J.  Maccarone $^{1}$, Yue Zhao$^{2}$, }
+\newauthor{Craig O. Heinke$^{2}$}%\thanks{Present address: Science magazine, AAAS Science International, \mbox{82-88}~Hills Road, Cambridge CB2~1LQ, UK}
+\\
+% List of institutions
+$^{1}$Department of Physics and Astronomy, Texas Tech University, Lubbock, TX 79409\\
+$^{2}$Department of Physics, University of Alberta, CCIS 4-183, Edmonton, AB, T6G 2E1, Canada}
+
+% These dates will be filled out by the publisher
+\date{-}
+
+% Enter the current year, for the copyright statements etc.
+\pubyear{2019}
+\hypersetup{draft}
+% Don't change these lines
+\begin{document}
+\label{firstpage}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\maketitle
+
+% Abstract of the paper
+\begin{abstract}
+We report optical modulations of the companion to the %redback millisecond pulsar candidate 
+X-ray source 
+U18 in the globular cluster NGC 6397. U18, with combined evidence from radio and X-ray measurements, is a strong candidate as the second redback in this cluster, initially missed in pulsar searches. This object is a bright variable star with an anomalous red color and optical variability ($\sim0.2$ mag in amplitude) with a periodicity $\sim 1.96$ days.  That value corresponds to the longest orbital period for known redback candidates and confirmed systems in Galactic globular clusters and one of the few with a period longer than 1 day. 
+\end{abstract}
+
+% Select between one and six entries from the list of approved keywords.
+% Don't make up new ones.
+\begin{keywords}
+globular clusters: general; globular clusters: individual (NGC 6397); X-rays: binaries pulsars: general
+editorials, notices -- miscellaneous
+\end{keywords}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
+
+% The MNRAS class isn't designed to include a table of contents, but for this document one is useful.
+% I therefore have to do some kludging to make it work without masses of blank space.
+%\begingroup
+%\let\clearpage\relax
+%\tableofcontents
+%\endgroup
+%\newpage
+
+\section{Introduction}
+
+Redback pulsars are a sub-type of binary millisecond pulsars (MSPs) with main sequence, or slightly evolved, low mass companions ($M_{c} \simeq 0.2 - 0.9 M_\odot$) \citep{MalloryRedback2013}. They differ from the closely related black widows by having companions which are non-degenerate, and a bit more massive, than the $\lesssim0.1 M_\odot$  degenerate companions in the black widow systems. Both classes are characterized by radio eclipses due to excess ionized gas within the system, which suggests that the companion is being ablated by irradiation from the pulsar wind \citep{FruchterEclipse1988,Fruchter88b}. These systems are important for understanding the evolution of MSPs as their formation mechanisms and eventual fates are open questions.
+
+\cite{ChenFormationRedback2013} and \cite{Benvenuto2014} propose contrasting views about the evolutionary tracks leading to the formation of a redback system, and whether or not these end as black widows. %(a MSP with with slightly shorter orbital periods and a less massive companion star). 
+\cite{ChenFormationRedback2013} concluded that redbacks and  black  widow  pulsars  follow  different  evolutionary  paths depending  on  the  strength  of  evaporation,  finding  that  black widows  do  not  descend  from  redback  pulsars, while \cite{Benvenuto2014} concluded that black widows can descend from redbacks, depending on the evaporation  and  irradiation  feedback on the system. 
+
+Other open questions remain regarding redbacks and their relation with transitional MSPs (tMSPs).\footnote{Transitional millisecond pulsars are accreting millisecond pulsars that switch between accreting X-ray binary and millisecond radio pulsar states.} A handful of %these systems are known to be
+redbacks are 
+ confirmed tMSPs (PSR J1023+0038, PSR J1824-2452I, and PSR J1227-4853;  \citealt{Archibal09,Papitto13,bassa2014change}).  It is not clear if all redbacks will eventually show transitional behaviour if observed over a long period of time, but long-term follow up of these systems is vital and can help guide the needed theoretical work on this topic
+ %More confirmation and follow up of these systems is vital and can help guide the needed theoretical work on this topic.
+.
+
+
+Optical and X-ray observations can provide relevant information regarding the redback systems and help guide future radio searches. The X-ray spectra of redbacks consist of a dominant non-thermal component and at least one thermal component, likely originating from the heated pulsar polar caps \citep{Zavlin96,Zavlin02,Bogdanov05,Bogdanov2011Pulsar}. The non-thermal emission from MSPs can be produced by two different mechanisms: coherent emission from the magnetosphere or non-thermal emission due to an intrabinary shock between the pulsar wind and the companion's material \citep{2003SciStapper}. The latter has been shown to be important for the confirmed redback MSPs, as the non-thermal emission is orbitally modulated \citep{Bogdanov05,bogdanov_chandra_2010,Bogdanov2011Pulsar}. In the optical, redbacks show orbital modulation due to effects such as the ellipsoidal modulation of the near-Roche filling companion, and day vs night side temperature differentials due to heating of the secondary from the pulsar or intrabinary shocks \cite[e.g.][]{Callanan95,Romani16,Cho2018}. Modeling of their optical lightcurves has been done for a handful of these systems, to obtain constraints on the component masses and  inclinations \citep{Thorstensen2005,Cho2018,Strader2019Redbacks}.
+
+
+
+
+%Redbacks variability in the optical have been %Need to 
+
+The known redbacks are also of special interest as 
+%the known redback candidates seem to
+they 
+have higher average neutron star masses than the canonical mass of $\sim 1.4M_\odot$, with a median mass of $1.78 \pm 0.09 M_{\odot}$ \citep{Strader2019Redbacks}, with some having evidence of hosting neutron stars with masses larger than $2 M_\odot$ \citep{Linares2018,Strader2019Redbacks,Kandel20}. Mapping out their populations and evolutionary tracks is thus important for understanding binary evolution. Unfortunately, these systems can be particularly hard to find in radio pulsar searches as the pulses from the neutron star can be eclipsed, or scattered out, by the ionized stripped gas from the hydrogen rich companion star \cite[e.g.][]{FruchterEclipse1988}. Currently there are 25 redbacks or redback candidates in the Galactic field \citep{Strader2019Redbacks,2020SwihartRedback}, and %only
+13 confirmed redbacks in 8 globular clusters\footnote{See \href{http://www.naic.edu/~pfreire/GCpsr.html}{http://www.naic.edu/~pfreire/GCpsr.html} for a complete list of pulsars in GCs.}. These pulsar searches can be computationally demanding, especially for an unknown orbital period. Furthermore, the variation in the dispersion measure expected in the redback systems as the radio pulse propagates through the companion's wind can add an additional computational parameter %space
+to the search. 
+
+
+
+
+
+%\section{NGC 6397}
+
+% Add Extinction value and that allows it to do UV
+
+
+NGC 6397 is the closest (2.4 kpc) core-collapsed globular cluster,  %with center at RA(J2000): $17^h \, 40^m \, 42.09^s$  and Dec(J2000): $-53^\circ \, 40'\, 27.6"$ and
+  with an average reddening of $E(B - V) = 0.18$ \citep{harris_catalog_1996,mclaughlin_resolved_2005}. Due to its proximity and low reddening, NGC 6397 has been extensively studied at different wavelengths. %The observation by 
+  \cite{cool_discovery_1993} first detected X-ray sources in NGC 6397, with the {\it ROSAT} satellite. %Since then 
+  Optical and UV observations with the {\it Hubble Space Telescope} (HST) have enabled the identification of several X-ray sources with blue, variable, and/or H$\alpha$ bright stars \citep{cool_discovery_1995,grindlay_spectroscopic_1995,Cool98,taylor_helium_2001,Ferraro01,Shara05}. Identifications were dramatically improved by the  sub-arcsecond positions of the {\it Chandra X-ray Observatory} \citep{grindlay_chandra_2001,bogdanov_chandra_2010}, enabling identification of many more optical/UV counterparts with HST \citep{kaluzny_photometric_2006,cohn_identification_2010,Heinke14,Pallanca2017Halpha,Dieball2017UV}.
+  %Follow-up observations with {\it Chandra} \citep{grindlay_chandra_2001,bogdanov_chandra_2010} and {\it Hubble} \citep{taylor_helium_2001,2006Sci...313..936R,grindlay_compact_2006} have identified their probable optical counterparts, and determined whether they show H$\alpha$ emission \citep{cohn_identification_2010,Pallanca2017Halpha}.
+%Mention here the know redbacks in cluster. 
+NGC~6397 has also been observed with radio telescopes, both imaging observations with the {\it Australia Telescope Compact Array} ({\it ATCA}) \citep{CoryPaper}, and %timing observation 
+radio pulsar searches 
+with Parkes \citep{damico2001discovery} that 
+%confirmed the nature of 
+discovered PSR J1740-5340  (aka the X-ray source U12, \citealt{grindlay_chandra_2001}) and confirmed its nature as an eclipsing redback system. 
+
+
+
+%Previous attempts were made to study the optical and X-ray variability of U18 by  \cite{kaluzny_photometric_2006} and \cite{bogdanov_chandra_2010}. 
+Using ground-based data, \cite{kaluzny_photometric_2006} reported a 1.3 day periodicity for the source V31, which they associated with U18. %However, V31 is most likely not the actual counterpart, as it lies at $~2.1 \sigma$ from U18   \citep{bogdanov_chandra_2010}. %Later,
+\cite{bogdanov_chandra_2010} studied the X-ray properties of U18 and found similarities in its luminosity and spectrum with the confirmed MSP U12, as both sources have a dominant non-thermal component, possibly from  an intrabinary shock.  \cite{bogdanov_chandra_2010} did not find the claimed periodicity of 1.3 days reported by \cite{kaluzny_photometric_2006} in the X-ray data of U18, and dismissed V31 as the possible optical counterpart of U18 based on the distance between them ($~2.1 \sigma$) and the presence of a more likely optical counterpart closer to the X-ray source \citep{grindlay_chandra_2001}. 
+ \cite{bogdanov_chandra_2010} suggested U18 as a likely second MSP in the cluster, based on the similarity of its X-ray and optical properties to those of the MSP PSR J1740-5340. 
+ This interpretation of U18 as a redback was further strengthened by %the radio properties of the system reported in
+the radio detection of U18 with a steep spectrum, as typical of pulsars 
+\citep{CoryPaper}.
+%We searched for candidate periods in the archive Chandra X-ray data (a total of 340 ks), but the sampling of the data is not ideal to find a period in the order of days, and then we did not find any convincing periodicity in the X-rays. 
+
+U18 has also been  observed twice with the Multi Unit Spectroscopic Explorer  \citep[MUSE][]{MUSECommissioning}. \cite{Husser2016MUSE}  reported two observations 22 h apart, during MUSE commissioning in Summer 2014. In their full-spectrum fitting analysis they found a K subgiant with  $\log g \approx 3.6$ and $T_{\text{eff}} \approx 4200 K$ as the best fit for the optical counterpart of U18, and calculated a radial velocity difference between the two observations of $ \Delta  v_{\text{rad}} =   145.9$ \kms. 
+
+
+
+Here we %report U18 as a strong redback candidate which has 
+discover an orbital period of $1.96 \pm 0.06$ day for the strong redback candidate U18.   As U18 is in one of the closest globular clusters, %at a well-known distance 
+it is a perfect candidate for high resolution spectroscopic follow-up to fully characterize its orbit, adding to a small sample of redbacks with well constrained dynamically determined masses.
+
+
+\section{Data Analysis and Reduction}
+
+\subsection{Hubble data}
+
+We use WFPC2 data from the parallel field of the HST large program %in \emph{Hubble Space Telescope (HST)} 
+%Cycle 13 HST Proposal 
+GO-10424 \citep{2006Sci...313..936R}, which covered the cluster center (the primary field, using the ACS camera, is arcminutes away). The data consist of 126 orbits, and each WFPC2 orbit is divided into three exposures, in the filters F814W, F606W and F336W.
+%\footnote{The numbers of the filters represent values close to the central wavelengths of the filters in nanometers, so that the F814W filter is very similar to Johnson $I$, the F606W filter is somewhat bluer than Johnson $R$, and the F336W filter is somewhat bluer than Johnson $U$.} 
+We use the F336W data to avoid crowding in the field, taking advantage both of the somewhat better diffraction limit in the bluer band, and the smaller number of bright stars in the bluer band given the globular cluster's old stellar population. This results in 126 individual exposures in F336W with exposure times ranging from 500-700 seconds, taken between mid-March and early April 2005 (2005-13-03 to 2005-08-04).
+
+ \begin{figure}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+	%\includegraphics[width=\columnwidth]{hstimage.eps}
+	\includegraphics[width= \columnwidth]{hstds9.png}
+    \caption{WFPC2 image of the central 10"$\times$10" of the cluster in F336W . U18 is marked by the 0.2" radius red circle. North is up and East is left.}
+    \label{fig:u18}
+\end{figure}
+
+
+
+ \subsection{Photometry}
+ 
+ We use DOLPHOT \citep{2000PASP..112.1383D} including the WFPC2 Module to perform point-spread-function (PSF) photometry. We supply DOLPHOT the calibrated single-exposure image data (c0m) WFPC2 files and the drizzled .drz image as the reference frame for alignment. The final output from the software lists the position of each star relative to the reference image, together with the measured aperture-corrected magnitudes calibrated to the Vega system\footnote{\url{https://www.stsci.edu/hst/wfpc2/Wfpc2\_dhb/wfpc2\_ch52.html}} for the individual exposures, along with some diagnostic values. We limit the data to measurements containing an error flag of zero meaning that the star was recovered extremely well in the image without contamination due to cosmic rays.
+
+ 
+ \subsection{Data Analysis}
+ 
+From the DOLPHOT output, we construct a lightcurve for the optical counterpart of U18 (see Fig.~\ref{fig:u18}). The clean data set with well-measured magnitudes from the software consists of 112 data points (Fig.~\ref{fig:lc}). %The lightcurve is shown in figure \ref{fig:lc}. 
+We then perform a period search using the Lomb-Scargle \citep{1976Ap&SS..39..447L,1982ApJ...263..835S} periodogram. This is equivalent to a least-squares fit of a sinusoid plus a constant to the data for a range of trial frequencies. The periodogram is then normalized by the residuals of the data around a constant reference model. The periodogram %is shown in
+(Fig.~\ref{fig:periodogram}) clearly shows an isolated peak at a period of $1.96\pm 0.06$  days, with a false alarm probability of $6.6\times 10^{-32}$ using the method described in \cite{Baluev}. The folded lightcurve at that period is shown in Fig.~\ref{fig:folded}.
+
+
+We also perform a periodicity analysis using the phase dispersion minimization technique  \citep[PDM][]{PDMStellingwerf78}. In this method, the lightcurve is divided into different phase bins and the cost function, $\Theta =s^2/\sigma^2$, is minimized to choose the best period. 
+Here $s$ is the phase bin variance and $\sigma$ is the total data variance. We divide the data into 10 equidistant bins to calculate $\Theta$. The plot of the ratio $\Theta$ vs. period (inset in Fig.~\ref{fig:periodogram}) is a good indicator for the best  period. % $\Theta$  is shown as an . 
+The local minimum corresponds to $\Theta = 0.1365$ at a period of 1.98 days, consistent with the results obtained with the Lomb-Scargle periodogram. To calculate the false alarm probability (FAP), an estimate of the significance of the minimum against the hypothesis of random noise, \cite{pdmbeta97} showed that the PDM statistic follows a beta distribution and thus the FAP can be calculated as:
+
+$$\text{FAP} = 1-\left [ 1 - \beta\left ( \frac{N-M}{2},\frac{M-1}{2},\frac{(N-M)\times \Theta}{N-1}\right )\right ]^m$$
+
+\noindent where N is the total number of data points, M is the number of bins, $\Theta$ is the value of the PDM theta statistic, and $m$ is the effective number of independent frequencies. The number of independent frequencies can be estimated in a number of ways \citep[e.g.,][]{Nemec1985,HorneLombFreq1986,Cumming2004}, here we follow the conservative prescription given in \cite{GuidePeriodSearch2003}  and choose $m= \min(N, N_f,\Delta f \Delta T)$ where $N_f$ is the number of frequencies, $\Delta f$ is the frequency range and $\Delta T$ is the time span of observations. This gives a very small FAP of  $5\times 10 ^{-40}$.
+
+
+%One important %thing to consider is the possible periodicity due to red noise. 
+%concern is spurious periodicities due to red noise \citep{Press1978RedNoise}.
+Red noise %variations is
+can produce spurious detections of periodic behaviour in datasets with small numbers of cycles of the putative period \citep{Press1978RedNoise}.% see  for a general discussion of this point. 
+To test against this possibility, we simulate random red noise light curves following the algorithm detailed in \citet{Timmer1995Rednoise}. The algorithm randomizes the phases and the amplitudes of an underlying power law spectrum by drawing two sets of normally distributed numbers, and then inverse Fourier transforming them. First, we produce a simulated light curve that exhibits a power law spectrum of the form $(1/f)^2$ evenly sampled at the exposure time of our observations ($\sim 10$ min). Then, we add random Gaussian noise with the same mean and variance as the errors from the observations. The next step is to re-sample the  simulated light curve with noise added and  re-scale it to have the same sampling characteristics, mean and variance as the light curve of the observation. For each generated mock light curve, we compare the maximum power in the Lomb-Scargle periodogram to that of the observed periodicity. We repeat this step $10^6$ times to estimate the probability that the found periodicity is due to underlying red noise. In our $10^6$ trials, only 10 periodograms had a higher power than the one found in the real lightcurve. This corresponds to a probability of $0.001\%$.  In all cases, the spurious periods were 8-10 days, much longer than the real one. 
+Our data spans a bit more than 13 period cycles, and  (Fig.~\ref{fig:periodogram}) clearly show only weak variability on longer timescales.  In combination with the other indications that the system should have an orbital period of about 2 days, discussed below, the number of observed cycles and our simulated lightcurves present a strong case against a spurious period due to red noise.
+
+
+%beta = 6.303752e-42
+
+\begin{figure}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+	\includegraphics[width=\columnwidth]{lcurvemjd.eps}
+    \caption{Lightcurve for the redback millisecond pulsar candidate, U18. The magnitudes are from the F336W filter without dereddening and magnitudes uncertainty from the DOLPHOT output catalog.}
+    \label{fig:lc}
+\end{figure}
+
+
+ \begin{figure*}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+	\includegraphics[width=0.6\textwidth]{LandPDM.eps}
+    \caption{Lomb-Scargle Periodogram for %the lightcurve of U18. It
+    U18, showing a clear isolated peak around 1.96 days. The dotted line shows the periodogram level corresponding to a maximum peak false alarm probability of $1\%$, using the bootstrap method that simulates data at the same observation times to approximate the true distribution of peak maxima for the case with no periodic signal present. The bootstrap method is performed with periods between 0.1 and 10 days, and after normalizing by the residuals of the data around a constant reference model. The inset on the graph shows the $\Theta$ statistics as defined by \protect\cite{PDMStellingwerf78}. The period that minimizes the dispersion of the data at constant phase is $\sim 1.98$ days. }
+    \label{fig:periodogram}
+\end{figure*}
+
+%\begin{figure}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+%	\includegraphics[width=\columnwidth]{PDM.eps}
+%    \caption{PDM.}
+%    \label{fig:PDM}
+%\end{figure}
+
+
+
+ \begin{figure}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+	\includegraphics[width =\columnwidth]{folded.eps}
+	\vspace{-0.5 cm}
+    \caption{Lightcurve for U18 folded on the 1.96 day period. The magnitudes are from the F336W filter without dereddening. }
+    \label{fig:folded}
+\end{figure}
+
+ 
+ \section{Results and Discussion}
+ 
+
+ %We have performed a periodicity search on the lightcurve of the optical counterpart of the MSP candidate U18 in the HST F336W filter. We found a period of $1.96 \pm 0.06$ days. 
+ 
+ The strong optical modulations at 1.96$\pm$0.06 days can be explained by the heating of one side of the companion by radiation from the pulsar, as seen in other confirmed redbacks in the field \citep[e.g.,][]{Hui2015PSR2219,salvetti2015J2039}.  This interpretation is further strengthened by the recently reported steep radio spectrum of U18 \citep{CoryPaper}. \citet{CoryPaper} report an spectral flux density at 5.5 GHz of $S_\nu =54.7 \mu\text{Jy}$. A 1.96 day orbit would put U18 as the longest period confirmed redback in a globular cluster, and one of the few redbacks with an orbital period longer than 1 day in the Galactic field.
+ 
+ %Two other redbacks in the field, 1FGL J1417.7-4407 \citep{Strader2015,Swihart2018} and 2FGLJ0846.0+2820 \citep{Swihart2017} have larger periods at 5.3 and 8.3 day respectively and both are candidate "huntsman systems" which have red giant secondaries.
+ 
+ 
+ The strong radio emission also argues against an active binary scenario. \citet{Guedel1993} found that for coronally active stars, typically $\log(L_R/L_X) \sim -15.5 \text{ Hz}^{-1}$. From this relationship, for U18, assuming a $L_X= 6.7 \times 10 ^{31}$\ergs (0.3-8 keV) \citep{bogdanov_chandra_2010}, $L_R = 2 \times 10^{16}$ \ergs $\text{ Hz}^{-1}$. This is an order of magnitude lower than the reported value for $L_R (5.5 GHz) = 3.8\times 10^{17}$ \ergs $\text{ Hz}^{-1}$ reported by \citet{CoryPaper}. 
+ 
+ The optical to X-ray luminosity argues further against the active binary scenario. \cite{Pallanca2017Halpha} calculate the dereddened  magnitude for U18 as $V_0 = 16.05$, from the HST F555W observations of the cluster. We take a distance modulus $(m-M)_0 = 12.01$ \citep{Gratton2003} and a $T_{eff} = 4200 \, K$ \citep{Husser2016MUSE}. We can use the \cite{Flower1996BC} bolometric correction to find a bolometric luminosity, $L_{opt} = 1.6 \times 10^{34}$ \ergs.  Then, with $L_X= 6.7 \times 10 ^{31}$\ergs \citep[0.3-8 keV;][]{bogdanov_chandra_2010}, we determine that the ratio is $L_X/L_{opt} = 4.2 \times 10^{-3}$, well above the saturation limit of $10^{-3}$ for active binaries \citep{VilhuSaturation2,VilhuSaturationLimit}, arguing strongly against that scenario. We can further exclude the possibility that the X-rays were measured during a flaring event. Large flares, with total energies of order $10^{37}$\ergs  (0.1-2.4 keV) have been detected in active binary systems, like RS CVn \citep[e.g.,][]{Kuerster1996}. U18 has been observed in five different epochs from 2000 to 2007 for a total of 340 ks in the X-ray with Chandra. \citet{bogdanov_chandra_2010} analyzed all 5 observations and reported similar count rates for all of them, making it less likely that U18 was caught during a flaring event. 
+Additionally, using the same data sets than \citet{bogdanov_chandra_2010}, we also searched for candidate periods in the archive Chandra X-ray data, but the sampling of the data is not ideal to find a period in the order of days, and we did not find any convincing periodicity in the X-rays (not even folding at the optical period we identified). 
+
+ 
+ 
+ 
+%The measurement of the orbital period, P, and the lower limit on the semi-amplitude of the projected radial velocity curve, $K_2$, of the companion star allows us to calculate the mass function $f(M_1,M_2) = M_1^3 \sin ^3 i/(M_1+M_2)^2 = P K_2^3/2 \pi  G$ where $M_2$ is the mass of the companion star and $M_1$ is the mass of the compact object. \cite{Husser2016MUSE} report a lower limit on the radial velocity variation for U18 of $ \Delta  v_{\text{rad}} =   145.9$ and $K_2 = 73$ \kms. 
+
+Knowing the distance to U18, future observations of this system could be used to solve for the complete kinematics of the system and determine whether %
+%have identified an additional 
+it hosts another 
+massive neutron star, like the ones %already known to exist 
+suggested in several redback binaries \citep{Linares2018,Strader2019Redbacks,Kandel20}. %This would add to the small number of redback systems with direct measurements of the neutron  star  masses. 
+For this purpose, follow-up spectroscopy can  provide accurate determinations of the radial velocity and of the effective temperature of the companion star. This was done for the other redback in NGC~6397, U12, using a high resolution echelle spectrum by \cite{Orosz2003}. For U12, \cite{Orosz2003}, were able to measure an accurate radius, $T_{eff}$ and rotational velocity ($v_{rot}\sin i$) of the companion star and infer a Roche lobe filling factor of $~97 \%$.
+
+
+Given that the distance to NGC~6397 is well determined, an accurate determination of an average temperature (in redbacks, heating from the NS causes a temperature difference between the irradiated and non-irradiated side of the companion), along with the photometric data for the object could be used to determine the radius of the companion.  This, in combination with a full dynamical solution for the system from radial velocities, rotational broadening, and pulse timing, could establish the Roche-lobe filling factor, the ratio of the radius of the companion to the corresponding Roche lobe. If the filling factor is high enough, the measurement of the rotational broadening along with the radial velocity of the star can establish an independent determination of the binary mass ratio via the relation by \cite{wadehorne1988}:
+$$\frac{V_{rot} \sin i}{K_c} \simeq 0.462 q^{-1/3}\left ( 1 + \frac{1}{q}\right ) ^{2/3}$$
+If the filling factor is not close to unity, then the mass ratio could still be determined by comparing pulse timing data for the pulsar with the radial velocity curve of the companion star, so there will be a possible independent check on this value.  Even then, in principle, if a precise enough measurement of the surface gravity of the companion star can be made, we can estimate the mass (albeit perhaps too crudely) from the mass ratio and the companion mass.
+
+
+ In the optical bands, black widow and redback binaries show amplitude variability due to effects such as the ellipsoidal modulation of the near-Roche filling companion, and dayside and nightside temperature differentials due to heating of the secondary from the pulsar or intrabinary shocks \cite[e.g.][]{Cho2018}, with the apparent magnitudes of these systems and amplitude of the modulation changing considerably with inclination and the intrinsic luminosity of their companions. More detailed light curve modelling is needed to estimate the inclination angles of these systems, the final input factor in making precision pulsar mass estimates. Optical light curve modeling has been done for some of these systems, obtaining new constraints on the inclination and component masses \citep{Thorstensen2005,LilianaPulsar2018,Cho2018,Strader2019Redbacks}. The UV light curve modeling has been shown to constrain further the binary components, and also gives insights on the intrabinary shock \citep[e.g.,][]{LilianaPulsar2018}.
+ 
+ %\cite[e.g.][]{LilianaPulsar2018}.
+
+
+
+For the filling factors of redbacks, \cite{devitobenvenuto2020} suggest that the filling factor can be considered as a useful tool for discriminating among the formation mechanisms in redbacks. \cite{devitobenvenuto2020} argue that the strong evaporation mechanism presented by \cite{ChenFormationRedback2013} generally leads to  donor stars with sizes much smaller than those of their associated Roche lobes. On the contrary, the mechanisms that involve irradiation feedback \citep{irradiation2004,Benvenuto2014} give rise to donor stars in the quasi-RLOF state, with their lobes almost fully filled. 
+
+
+Finally, we stress that the object was not found with systematic pulsar searches like that of  \cite{DamicoU12,damico2001discovery}, suggesting that this binary might host a large shock region, making it harder to detect radio pulsations. \cite{Tavani91} suggests that there might be a population of hidden MSP in globular clusters. Performing orbital variability searches of sources with archival data of HST can prove to be a good way to not only characterize current MSP candidates \citep[e.g.][]{Liliana201847Tuc}, but help find the population of predicted hidden pulsars \citep{CoryPaper,Urquhart20}.
+
+
+
+\section{Acknowledgement}
+
+
+Based on observations with the NASA/ESA Hubble Space Telescope, obtained at the Space Telescope Science Institute, operated by AURA, Inc., under NASA contract NAS5-26555, under programme GO-10424 (PI: H. Richer). This research made use of Astropy \citep{astropy:2013, astropy:2018} and Matplotlib \citep{matplotlib}.
+
+
+
+\section{Data Availability}
+
+This work used public data available in the Mikulski Archive for Space Telescopes under the programme GO-10424 (PI: H. Richer).
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The best way to enterin Mikulski Archive for Space Telescopes references is to use BibTeX:
+
+\bibliographystyle{mnras}
+\bibliography{redback} % if your bibtex file is called example.bib
+
+
+% Don't change these lines
+\bsp	% typesetting comment
+\label{lastpage}
+\end{document}
+
+% End of mnras_guide.tex

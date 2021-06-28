@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mnras_guide.aux
+The style file: mnras.bst
+Database file #1: redback.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 76 entries,
+            2881 wiz_defined-function locations,
+            1398 strings with 33513 characters,
+and the built_in function-call counts, 34897 in all, are:
+= -- 2928
+> -- 2396
+< -- 174
++ -- 1041
+- -- 334
+* -- 4465
+:= -- 5410
+add.period$ -- 0
+call.type$ -- 76
+change.case$ -- 152
+chr.to.int$ -- 75
+cite$ -- 76
+duplicate$ -- 1702
+empty$ -- 1723
+format.name$ -- 572
+if$ -- 6014
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 76
+newline$ -- 241
+num.names$ -- 496
+pop$ -- 328
+preamble$ -- 1
+purify$ -- 304
+quote$ -- 0
+skip$ -- 1039
+stack$ -- 0
+substring$ -- 2061
+swap$ -- 874
+text.length$ -- 310
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 684
+warning$ -- 0
+while$ -- 569
+width$ -- 0
+write$ -- 774
