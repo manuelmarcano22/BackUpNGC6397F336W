@@ -1,0 +1,95 @@
+Reading FITS file FirstSet/Try/j92802meq_flc.chip2.fits: 4096x2048
+  BAD=-980.45 SAT=255317.69
+  BAD=-980.45 SAT=255317.69
+......................................................................
+Writing FITS file FirstSet/Try/j92802meq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cpq_flc.chip2.fits: 4096x2048
+  BAD=-733.64 SAT=253500.89
+  BAD=-733.64 SAT=253500.89
+......................................................................
+Writing FITS file FirstSet/Try/j92801cpq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801crq_flc.chip1.fits: 4096x2048
+  BAD=-922.55 SAT=244541.44
+  BAD=-922.55 SAT=244541.44
+......................................................................
+Writing FITS file FirstSet/Try/j92801crq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92802mfq_flc.chip1.fits: 4096x2048
+  BAD=-570.73 SAT=294381.75
+  BAD=-570.73 SAT=294381.75
+......................................................................
+Writing FITS file FirstSet/Try/j92802mfq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801clq_flc.chip2.fits: 4096x2048
+  BAD=-256.61 SAT=276625.19
+  BAD=-256.61 SAT=276625.19
+......................................................................
+Writing FITS file FirstSet/Try/j92801clq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cnq_flc.chip1.fits: 4096x2048
+  BAD=-1109.11 SAT=244777.47
+  BAD=-1109.11 SAT=244777.47
+......................................................................
+Writing FITS file FirstSet/Try/j92801cnq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801ckq_flc.chip2.fits: 4096x2048
+  BAD=-757.71 SAT=253790.48
+  BAD=-757.71 SAT=253790.48
+......................................................................
+Writing FITS file FirstSet/Try/j92801ckq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801ctq_flc.chip1.fits: 4096x2048
+  BAD=-466.23 SAT=245900.39
+  BAD=-466.23 SAT=245900.39
+......................................................................
+Writing FITS file FirstSet/Try/j92801ctq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/hst_10257_01_acs_wfc_f658n_j92801_drc.chip1.fits: 6420x6416
+  BAD=-1.00 SAT=65535.00
+  BAD=-1.00 SAT=65535.00
+......................................................................
+Writing FITS file FirstSet/Try/hst_10257_01_acs_wfc_f658n_j92801_drc.chip1.sky.fits: 6420x6416
+Reading FITS file FirstSet/Try/j92801ctq_flc.chip2.fits: 4096x2048
+  BAD=-2627.03 SAT=247662.50
+  BAD=-2627.03 SAT=247662.50
+......................................................................
+Writing FITS file FirstSet/Try/j92801ctq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cnq_flc.chip2.fits: 4096x2048
+  BAD=-808.49 SAT=253095.75
+  BAD=-808.49 SAT=253095.75
+......................................................................
+Writing FITS file FirstSet/Try/j92801cnq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801ckq_flc.chip1.fits: 4096x2048
+  BAD=-1293.76 SAT=245819.48
+  BAD=-1293.76 SAT=245819.48
+......................................................................
+Writing FITS file FirstSet/Try/j92801ckq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801clq_flc.chip1.fits: 4096x2048
+  BAD=-955.59 SAT=249956.12
+  BAD=-955.59 SAT=249956.12
+......................................................................
+Writing FITS file FirstSet/Try/j92801clq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92802mfq_flc.chip2.fits: 4096x2048
+  BAD=-655.48 SAT=264912.16
+  BAD=-655.48 SAT=264912.16
+......................................................................
+Writing FITS file FirstSet/Try/j92802mfq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801crq_flc.chip2.fits: 4096x2048
+  BAD=-1492.83 SAT=249276.72
+  BAD=-1492.83 SAT=249276.72
+......................................................................
+Writing FITS file FirstSet/Try/j92801crq_flc.chip2.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/hst_10257_02_acs_wfc_f435w_j92802_drc.chip1.fits: 6103x6081
+  BAD=-1.00 SAT=65535.00
+  BAD=-1.00 SAT=65535.00
+......................................................................
+Writing FITS file FirstSet/Try/hst_10257_02_acs_wfc_f435w_j92802_drc.chip1.sky.fits: 6103x6081
+Reading FITS file FirstSet/Try/hst_10257_01_acs_wfc_f625w_j92801_drc.chip1.fits: 6420x6416
+  BAD=-1.00 SAT=65535.00
+  BAD=-1.00 SAT=65535.00
+......................................................................
+Writing FITS file FirstSet/Try/hst_10257_01_acs_wfc_f625w_j92801_drc.chip1.sky.fits: 6420x6416
+Reading FITS file FirstSet/Try/j92802meq_flc.chip1.fits: 4096x2048
+  BAD=-1352.30 SAT=259361.02
+  BAD=-1352.30 SAT=259361.02
+......................................................................
+Writing FITS file FirstSet/Try/j92802meq_flc.chip1.sky.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cpq_flc.chip1.fits: 4096x2048
+  BAD=-1054.94 SAT=242157.05
+  BAD=-1054.94 SAT=242157.05
+......................................................................
+Writing FITS file FirstSet/Try/j92801cpq_flc.chip1.sky.fits: 4096x2048

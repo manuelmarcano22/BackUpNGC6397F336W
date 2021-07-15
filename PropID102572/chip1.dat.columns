@@ -1,0 +1,154 @@
+1. Extension (zero for base image)
+2. Chip (for three-dimensional FITS image)
+3. Object X position on reference image (or first image, if no reference)
+4. Object Y position on reference image (or first image, if no reference)
+5. Chi for fit
+6. Signal-to-noise
+7. Object sharpness
+8. Object roundness
+9. Direction of major axis (if not round)
+10. Crowding
+11. Object type (1=bright star, 2=faint, 3=elongated, 4=hot pixel, 5=extended)
+12. Total counts, ACS_F435W
+13. Total sky level, ACS_F435W
+14. Normalized count rate, ACS_F435W
+15. Normalized count rate uncertainty, ACS_F435W
+16. Instrumental VEGAMAG magnitude, ACS_F435W
+17. Transformed UBVRI magnitude, ACS_F435W
+18. Magnitude uncertainty, ACS_F435W
+19. Chi, ACS_F435W
+20. Signal-to-noise, ACS_F435W
+21. Sharpness, ACS_F435W
+22. Roundness, ACS_F435W
+23. Crowding, ACS_F435W
+24. Photometry quality flag, ACS_F435W
+25. Total counts, ACS_F625W
+26. Total sky level, ACS_F625W
+27. Normalized count rate, ACS_F625W
+28. Normalized count rate uncertainty, ACS_F625W
+29. Instrumental VEGAMAG magnitude, ACS_F625W
+30. Transformed UBVRI magnitude, ACS_F625W
+31. Magnitude uncertainty, ACS_F625W
+32. Chi, ACS_F625W
+33. Signal-to-noise, ACS_F625W
+34. Sharpness, ACS_F625W
+35. Roundness, ACS_F625W
+36. Crowding, ACS_F625W
+37. Photometry quality flag, ACS_F625W
+38. Total counts, ACS_F658N
+39. Total sky level, ACS_F658N
+40. Normalized count rate, ACS_F658N
+41. Normalized count rate uncertainty, ACS_F658N
+42. Instrumental VEGAMAG magnitude, ACS_F658N
+43. Transformed UBVRI magnitude, ACS_F658N
+44. Magnitude uncertainty, ACS_F658N
+45. Chi, ACS_F658N
+46. Signal-to-noise, ACS_F658N
+47. Sharpness, ACS_F658N
+48. Roundness, ACS_F658N
+49. Crowding, ACS_F658N
+50. Photometry quality flag, ACS_F658N
+51. Measured counts, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+52. Measured sky level, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+53. Normalized count rate, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+54. Normalized count rate uncertainty, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+55. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+56. Transformed UBVRI magnitude, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+57. Magnitude uncertainty, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+58. Chi, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+59. Signal-to-noise, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+60. Sharpness, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+61. Roundness, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+62. Crowding, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+63. Photometry quality flag, FirstSet/Try/j92801crq_flc.chip1 (ACS_F658N, 395.0 sec)
+64. Measured counts, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+65. Measured sky level, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+66. Normalized count rate, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+67. Normalized count rate uncertainty, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+68. Instrumental VEGAMAG magnitude, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+69. Transformed UBVRI magnitude, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+70. Magnitude uncertainty, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+71. Chi, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+72. Signal-to-noise, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+73. Sharpness, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+74. Roundness, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+75. Crowding, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+76. Photometry quality flag, FirstSet/Try/j92802mfq_flc.chip1 (ACS_F435W, 340.0 sec)
+77. Measured counts, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+78. Measured sky level, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+79. Normalized count rate, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+80. Normalized count rate uncertainty, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+81. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+82. Transformed UBVRI magnitude, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+83. Magnitude uncertainty, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+84. Chi, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+85. Signal-to-noise, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+86. Sharpness, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+87. Roundness, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+88. Crowding, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+89. Photometry quality flag, FirstSet/Try/j92801cnq_flc.chip1 (ACS_F658N, 395.0 sec)
+90. Measured counts, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+91. Measured sky level, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+92. Normalized count rate, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+93. Normalized count rate uncertainty, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+94. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+95. Transformed UBVRI magnitude, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+96. Magnitude uncertainty, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+97. Chi, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+98. Signal-to-noise, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+99. Sharpness, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+100. Roundness, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+101. Crowding, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+102. Photometry quality flag, FirstSet/Try/j92801ctq_flc.chip1 (ACS_F658N, 395.0 sec)
+103. Measured counts, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+104. Measured sky level, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+105. Normalized count rate, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+106. Normalized count rate uncertainty, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+107. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+108. Transformed UBVRI magnitude, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+109. Magnitude uncertainty, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+110. Chi, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+111. Signal-to-noise, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+112. Sharpness, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+113. Roundness, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+114. Crowding, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+115. Photometry quality flag, FirstSet/Try/j92801ckq_flc.chip1 (ACS_F625W, 10.0 sec)
+116. Measured counts, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+117. Measured sky level, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+118. Normalized count rate, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+119. Normalized count rate uncertainty, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+120. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+121. Transformed UBVRI magnitude, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+122. Magnitude uncertainty, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+123. Chi, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+124. Signal-to-noise, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+125. Sharpness, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+126. Roundness, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+127. Crowding, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+128. Photometry quality flag, FirstSet/Try/j92801clq_flc.chip1 (ACS_F625W, 340.0 sec)
+129. Measured counts, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+130. Measured sky level, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+131. Normalized count rate, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+132. Normalized count rate uncertainty, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+133. Instrumental VEGAMAG magnitude, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+134. Transformed UBVRI magnitude, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+135. Magnitude uncertainty, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+136. Chi, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+137. Signal-to-noise, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+138. Sharpness, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+139. Roundness, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+140. Crowding, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+141. Photometry quality flag, FirstSet/Try/j92802meq_flc.chip1 (ACS_F435W, 13.0 sec)
+142. Measured counts, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+143. Measured sky level, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+144. Normalized count rate, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+145. Normalized count rate uncertainty, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+146. Instrumental VEGAMAG magnitude, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+147. Transformed UBVRI magnitude, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+148. Magnitude uncertainty, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+149. Chi, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+150. Signal-to-noise, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+151. Sharpness, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+152. Roundness, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+153. Crowding, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)
+154. Photometry quality flag, FirstSet/Try/j92801cpq_flc.chip1 (ACS_F658N, 395.0 sec)

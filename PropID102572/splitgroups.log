@@ -1,0 +1,49 @@
+Reading FITS file FirstSet/Try/hst_10257_01_acs_wfc_f625w_j92801_drc.fits
+Reading IMAGE extension: 6420x6416
+Writing FITS file FirstSet/Try/hst_10257_01_acs_wfc_f625w_j92801_drc.chip1.fits: 6420x6416
+Reading FITS file FirstSet/Try/hst_10257_01_acs_wfc_f658n_j92801_drc.fits
+Reading IMAGE extension: 6420x6416
+Writing FITS file FirstSet/Try/hst_10257_01_acs_wfc_f658n_j92801_drc.chip1.fits: 6420x6416
+Reading FITS file FirstSet/Try/hst_10257_02_acs_wfc_f435w_j92802_drc.fits
+Reading IMAGE extension: 6103x6081
+Writing FITS file FirstSet/Try/hst_10257_02_acs_wfc_f435w_j92802_drc.chip1.fits: 6103x6081
+Reading FITS file FirstSet/Try/j92801ckq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801ckq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801ckq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801clq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801clq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801clq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cnq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801cnq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801cnq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801cpq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801cpq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801cpq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801crq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801crq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801crq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92801ctq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92801ctq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92801ctq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92802meq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92802meq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92802meq_flc.chip2.fits: 4096x2048
+Reading FITS file FirstSet/Try/j92802mfq_flc.fits
+Reading IMAGE extension: 4096x2048
+Reading IMAGE extension: 4096x2048
+Writing FITS file FirstSet/Try/j92802mfq_flc.chip1.fits: 4096x2048
+Writing FITS file FirstSet/Try/j92802mfq_flc.chip2.fits: 4096x2048
